@@ -1,25 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
 import brain from './Untitled485_20241114071941.jpg'
+import Home from './screens/Home';
+import Login from './screens/Login';
+import Register from './screens/Register';
+
+// Library for navigating in the web
+import { BrowserRouter as Router, Routes, Route, BrowserRouter, useLocation } from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+   <div>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <BrowserRouter>
+      <Routes>
+          <Route path="/" index  element={<Login/>}></Route>
+          <Route path="/register" element={<Register/>}></Route>
+          <Route path="/home" element={<Home/>}></Route>
+          
         
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <img src={brain}/>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        </Routes>
+        </BrowserRouter>
+    
+   </div>
   );
 }
 
