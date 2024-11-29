@@ -5,23 +5,31 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Login(){
     return(
         <div>
-         Login   
+         Login    
          <Link to={"/home"}>
          <button className='btn btn-primary'>
-            Click here to Login
+             Login
          </button>
          </Link>
          Register
          <Link to={"/register"}>
          <button className='btn btn-dark'>
-            Click here to Register 
+             Register 
          </button>
          </Link>
-
+         
          
         </div>
         
 
     )
 }
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">@</span>
+  </div>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"></input>
+</div>
+
+
 export default Login; 
