@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-<feColorMatrix>blue</feColorMatrix>
+
  
  function Home(){
     return(
