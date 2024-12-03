@@ -7,7 +7,7 @@ function Register(){
         <div> 
             Register
             <Link to={"/"}>
-          <button className='btn btn-info'>
+          <button >
             Click here to go back to Login
           </button>
             </Link>
