@@ -3,30 +3,6 @@ import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 
-<<<<<<< HEAD
-function Login(){
-    return(
-        <div>
-         Login    
-         <Link to={"/home"}>
-         <button className='btn btn-primary'>
-             Login
-         </button>
-         </Link>
-         Register
-         <Link to={"/register"}>
-         <button className='btn btn-dark'>
-             Register 
-         </button>
-         </Link>
-         <div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <span class="input-group-text" id="basic-addon1">@</span>
-  </div>
-  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"></input>
-</div>
-         
-=======
 function Login() {
     return (
         <div className='backgroundlogin' style={{ width: '100%', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -37,11 +13,11 @@ function Login() {
                         <h4>Thank you for joining the Future</h4>
                     </div>
 
-                </div>
-                <div className='col-4' style={{ backgroundColor: 'white', width: '50%' , borderTopRightRadius:'5%', borderBottomRightRadius:'5%', display:'flex', justifyContent:'center', flexDirection:'column'}}>
-                    <div style={{margin:'40px'}}>
-                    <h2>Sign In</h2>
+                 </div>
 
+                 <div className='col-4' style={{ backgroundColor: 'white', width: '50%' , borderTopRightRadius:'5%', borderBottomRightRadius:'5%', display:'flex', justifyContent:'center', flexDirection:'column'}}>
+                    <div style={{margin:'40px'}}>
+                    <h2>Log in</h2>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">@</span>
@@ -83,16 +59,12 @@ function Login() {
 
 
             </div>
->>>>>>> d90c12d21106d3fa777eb5a6a20eda3da7392bdb
         </div>
 
 
     )
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> d90c12d21106d3fa777eb5a6a20eda3da7392bdb
 
 
 export default Login; 
