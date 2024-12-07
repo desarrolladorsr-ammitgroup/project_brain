@@ -88,7 +88,7 @@ function Register() {
             <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"></input>
             <input type="password" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1" />
             <input type="password" class="form-control" placeholder="Confirm Password" aria-label="Username" aria-describedby="basic-addon1" />
-            <Link to={'login'}>
+            <Link to={'/home'}>
             <button className='btn' style={{ width:'100%',backgroundColor:'#6610f2',color:'white'}}>
             Create Account
           </button>

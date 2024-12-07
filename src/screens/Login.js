@@ -37,7 +37,7 @@ function Login() {
                     </button>
 
                     </div>
-                    <Link to={'/'}>
+                    <Link to={'/home'}>
                     <button className='btn' style={{width:'100%', backgroundColor:'#03045e', color:'white',}}>
                         Sign In
                     </button>

@@ -1,17 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Sidebar from '../components/Sidebar';
  
  function Home(){
     return(
         <div>
-            <Link to={'/'}>
-            <button className='btn btn-danger'>
-                click here to log out 
-            </button>
-            </Link>
-            Home
+           <Sidebar/>
+           This is Home
         </div>
     )
  }
