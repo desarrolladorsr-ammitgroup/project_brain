@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import Sidebar from '../components/Sidebar';
-function calender() {
+function Calendar() {
 <div style={{ display: 'flex', flexDirection: 'row' }}>
 <Sidebar/>
 <div className='content'>
@@ -9,3 +9,4 @@ function calender() {
            </div>
 </div>
 }
+export default Calendar;
