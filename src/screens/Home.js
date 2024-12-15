@@ -5,9 +5,11 @@ import Sidebar from '../components/Sidebar';
  
  function Home(){
     return(
-        <div>
-           <Sidebar/>
-           This is Home
+      <div style={{ display: 'flex', flexDirection: 'row' }}>
+         <Sidebar/>
+         <div className='content'>
+           <h1>This is Home</h1>
+           </div>
         </div>
     )
  }
