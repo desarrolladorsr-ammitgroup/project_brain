@@ -6,7 +6,7 @@ import Login from './screens/Login';
 import Register from './screens/Register';
 import Assignments from './screens/Assignments';
 import Settings from './screens/Settings';
-import Calender from './screens/calender';
+import Calender from './screens/Calender';
 // Library for navigating in the web
 import { BrowserRouter as Router, Routes, Route, BrowserRouter, useLocation } from "react-router-dom";
 
