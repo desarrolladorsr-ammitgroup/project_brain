@@ -6,11 +6,8 @@ import Login from './screens/Login';
 import Register from './screens/Register';
 import Assignments from './screens/Assignments';
 import Settings from './screens/Settings';
-<<<<<<< HEAD
-import Calender from './screens/Calender';
-=======
-import Calendar from './screens/Calendar';
->>>>>>> d905081c3d9345c7bb0c66806e4773bb7d01af49
+import Work from './screens/Work';
+import CalendarScreen from './screens/CalendarScreen';
 // Library for navigating in the web
 import { BrowserRouter as Router, Routes, Route, BrowserRouter, useLocation } from "react-router-dom";
 
@@ -25,7 +22,8 @@ function App() {
           <Route path="/home" element={<Home/>}></Route>
           <Route path="/assignments" element={<Assignments/>}></Route>
           <Route path="/settings" element={<Settings/>}></Route>
-          <Route path="/calendar" element={<Calendar/>}></Route>
+          <Route path="/calendarscreen" element={<CalendarScreen/>} ></Route>
+          <Route path="/work" element={<Work/>}></Route>
         </Routes>
         </BrowserRouter>
     
